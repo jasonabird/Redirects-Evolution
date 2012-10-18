@@ -1,0 +1,14 @@
+Evolution Redirect Plugin
+
+Description:
+This plugin is used for when creating a new website in MODX Evolution where client had an old site and we want to redirect the old site pages to new resources on the new site.
+
+To Install:
+* Create a new plugin:
+* Name:
+  Redirects
+* Description:
+  <strong>0.0.4</strong> Redirects old URL's to the new ones
+* Paste in plugin code
+* Edit $sites array with your old pages and docid to redirect to
+* On system events tab select OnPageNotFound
